@@ -6,8 +6,7 @@ def date(day_number,year):
     while day_number > days_months[month]:
         day_number-= days_months[month]
         month += 1
-    months = ["January", "February", "March", "April", "May", "June", 
-        "July", "August", "September", "October", "November", "December"]
+    months = ["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"]
     print(day_number,months[month],year)
 day_number=int(input("enter a day number:"))
 year=int(input("enter the year:"))
