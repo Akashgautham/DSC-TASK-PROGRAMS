@@ -41,6 +41,8 @@ while ans=='y':
         lst1=eval(input("enter list 1:"))
         lst2=eval(input("enter list 2:"))
         is_palindrome(lst1,lst2)
+    else:
+        print("invalid choice:")
     ans=input("do you want to continue[y/n]:")
         
     
